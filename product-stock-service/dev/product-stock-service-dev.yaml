@@ -23,6 +23,11 @@ management:
       exposure:
         include: refresh
 
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
 my-values:
   name: MENTOS*
   description: Драже жевательное 12415
